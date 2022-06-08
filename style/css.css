@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.gameplay{
+  align-items: center;
+  padding: 40px 0;
+}
+
+.diem-so{
+    text-align: center;
+    position: relative;
+}
+
+.reset{
+    position: absolute;
+    right: 30%;
+    top: 0;
+}
+.start{
+    margin-top: 20px;
+   text-align: center;
+}
+button{
+    padding: 8px 16px;
+    background-color: aqua;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.doc{
+    display: flex;
+    gap: 70px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.chuot{
+    /* max-width: 70px;
+    width: 100%; */
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(218, 171, 14);
+    position: relative;
+    border: 10px solid brown;
+}
+
+.chuot-hamter{
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    max-width: 70px;
+    width: 100%;
+    display: none;
+}
+
+.open{
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    max-width: 70px;
+    width: 100%;
+    display: block;
+}
